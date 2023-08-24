@@ -1,76 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой личный блог</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: black;
-        padding: 20px;
-      }
-
-      h1 {
-        color: white;
-        text-align: center;
-        margin-bottom: 20px;
-      }
-
-      .post {
-        background-color: #fff;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        padding: 20px;
-        margin-bottom: 20px;
-      }
-
-      .post h2 {
-        color: #333;
-      }
-
-      .post p {
-        color: #666;
-      }
-
-      .post .date {
-        color: #999;
-        font-size: 14px;
-        margin-bottom: 10px;
-      }
-
-      .post .author {
-        color: #999;
-        font-size: 14px;
-        font-style: italic;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
 
 <body>
-  <h1>Мой личный блог</h1>
+  <div class="three"></div>
+  <div class="one"></div>
+  <div class="two"></div>
+  <form>
+    <p>Choose your pizza toppings:</p>
+    <label for="cheese">Extra cheese</label>
+    <input id="cheese" type="checkbox">
+    <br>
+    <label for="pepperoni">Pepperoni</label>
+    <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+    <br>
+    <label for="anchovy">Anchovy</label>
+    <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+  </form>
+  <label for="toggle">❔</label>
+  <input type="checkbox" id="toggle" />
+  <aside>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+    turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum
+    et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius
+    libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt
+    metus. Donec ultrices, urna maximus consequat aliquet, dui neque
+    eleifend lorem, a auctor libero turpis at sem. Aliquam ut porttitor
+    urna. Nulla facilisi.
+  </aside>
+  <section class="info-box">
+    <ul>
+      <li><a href="#" class="active">Tab 1</a></li>
+      <li><a href="#">Tab 2</a></li>
+      <li><a href="#">Tab 3</a></li>
+    </ul>
+    <div class="panels">
+      <article class="active-panel">
+        <h2>The first tab</h2>
 
-  <div class="post">
-    <h2>Привет, мир!</h2>
-    <p class="date">Опубликовано 1 августа 2023</p>
-    <p>Приветствую всех на моем личном блоге! Меня зовут [Жамшид] и я создал этот блог, чтобы делиться своими мыслями, опытом и интересами. Здесь вы найдете статьи о различных темах, которые меня вдохновляют и интересуют.</p>
-    <p class="author">Автор: [Жамшид]</p>
-  </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          turpis nibh, porttitor nec venenatis eu, pulvinar in augue. Vestibulum
+          et orci scelerisque, vulputate tellus quis, lobortis dui. Vivamus varius
+          libero at ipsum mattis efficitur ut nec nisl. Nullam eget tincidunt
+          metus. Donec ultrices, urna maximus consequat aliquet, dui neque
+          eleifend lorem, a auctor libero turpis at sem. Aliquam ut porttitor
+          urna. Nulla facilisi.
+        </p>
+      </article>
+      <article>
+        <h2>The second tab</h2>
 
-  <div class="post">
-    <h2>Мои путешествия</h2>
-    <p class="date">Опубликовано 5 августа 2023</p>
-    <p>Одна из моих больших страстей - это путешествия. Я люблю исследовать новые места, погружаться в разные культуры и делиться своими впечатлениями. В этом блоге вы найдете рассказы о моих путешествиях, советы для путешественников и красивые фотографии со всех уголков мира.</p>
-    <img src="images.jpeg" alt="Image Description">
-    <p class="author">Автор: [Жамшид]</p>
-  </div>
+        <p>
+          This tab hasn't got any Lorem Ipsum in it. But the content isn't very
+          exciting all the same.
+        </p>
+      </article>
+      <article>
+        <h2>The third tab</h2>
 
-  <div class="post">
-    <h2>Мое увлечение - программирование</h2>
-    <p class="date">Опубликовано 10 августа 2023</p>
-    <p>Я всегда увлекался технологиями и программированием. В этом блоге я делюсь своими знаниями и опытом в области программирования. Вы найдете здесь полезные советы, туториалы и решения проблем, с которыми я сталкивался в процессе разработки программ и веб-сайтов.</p>
-    <p class="author">Автор: [Жамшид]</p>
-  </div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
+          turpis nibh, porttitor nec venenatis eu, pulvinar in augue. And now an
+          ordered list: how exciting!
+        </p>
 
+        <ol>
+          <li>dui neque eleifend lorem, a auctor libero turpis at sem.</li>
+          <li>Aliquam ut porttitor urna.</li>
+          <li>Nulla facilisi</li>
+        </ol>
+      </article>
+    </div>
+  </section>
 </body>
+
 </html>
